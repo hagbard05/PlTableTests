@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="57bb0fca-39fa-49e3-9ece-886247484873" name="UserOmega@MAIN 2017-01-03 08:47:37" runUser="Main\UserOmega" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="678602f8-413f-411e-9403-ca8081061929">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="UserOmega_MAIN 2017-01-03 08_47_37">
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\packages\Protractor.0.9.1\lib\net40\Protractor.dll" />
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\TablePages\bin\Debug\TablePages.dll" />
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\packages\Selenium.WebDriver.3.0.1\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\packages\Selenium.Support.3.0.1\lib\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <Hosts skipUnhostableTests="false" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-01-03T08:47:37.5753809-07:00" queuing="2017-01-03T08:47:38.3003809-07:00" start="2017-01-03T08:47:38.4613809-07:00" finish="2017-01-03T08:48:19.4063809-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="18" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ButtonsTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="1afc6924-140a-6380-4ecb-cda57c269422">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="681fdfe7-5278-4f44-a6cb-1e78f661aa8d" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ButtonsTabTest" />
+    </UnitTest>
+    <UnitTest name="InputsTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="b82b83a5-bad4-2a1a-676d-ef684fda801e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="2662014e-fff7-4f0c-84f5-6109411a0792" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InputsTabTest" />
+    </UnitTest>
+    <UnitTest name="TypographyTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="bb3757b2-9dce-f723-f03a-37b266fe9086">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="354d3f9b-d34f-4344-aa92-571ff5a0e29f" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TypographyTabTest" />
+    </UnitTest>
+    <UnitTest name="OverlaysTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="88b40dd8-5c22-7a43-51a2-747b9ca3a6b4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="cbb46eaa-aea5-490e-be48-269e44655c01" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OverlaysTabTest" />
+    </UnitTest>
+    <UnitTest name="FilterByFirstNameTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="f3870922-9857-e0ed-2c2c-6e371b1c96f0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="9481186d-b294-421d-82aa-110deb38b84f" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FilterByFirstNameTest" />
+    </UnitTest>
+    <UnitTest name="GridTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="e8a07304-cb52-9914-38cf-89c505784d6d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="eeeacafb-6b0d-4dfe-bacd-709af804a9aa" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GridTabTest" />
+    </UnitTest>
+    <UnitTest name="FilterByLastNameTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="99998761-5df9-8d5b-7345-4e3e96a78ce9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="e19d486c-a31e-4b93-ad5b-d66b10c27210" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FilterByLastNameTest" />
+    </UnitTest>
+    <UnitTest name="NavsTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="b924273c-6f6c-df09-074b-355ccc154565">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="1c719cbf-5f43-4373-b46e-2f72629df1f0" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NavsTabTest" />
+    </UnitTest>
+    <UnitTest name="SortByStatusTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="7102611a-e8c3-3bec-c71e-6073aa8a29f2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="9a2a75a3-8a4d-4856-b228-e54a85ff84f3" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortByStatusTest" />
+    </UnitTest>
+    <UnitTest name="MiscTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="f285a397-d8c6-4799-ca51-44b2bdbca964">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="eed64df5-0205-4381-aa26-69088a510838" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MiscTabTest" />
+    </UnitTest>
+    <UnitTest name="PageLdTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="8c45ffc0-b1f8-bce5-ce61-81320afdb47a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="c2a06852-6fc9-4f8a-89ca-9e6b3ed9159f" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageLdTest" />
+    </UnitTest>
+    <UnitTest name="SortByFistNameTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="a6ba8621-706b-d115-c38f-fe841344e4cc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="c7678381-41e3-4c39-b97a-1a245d966c26" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortByFistNameTest" />
+    </UnitTest>
+    <UnitTest name="ColorsTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="f0aabe81-0077-83cb-4384-c630db1f1cfe">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="53c5db6e-a278-494e-86ba-16929230b4f9" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ColorsTabTest" />
+    </UnitTest>
+    <UnitTest name="SortByLastNameTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="4099c06d-28d6-f6a9-a34c-0c8ce48f8dca">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="a0404f49-c21e-44ab-a107-2a123a039c22" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortByLastNameTest" />
+    </UnitTest>
+    <UnitTest name="Select25ItemsPerPageTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="64842e05-d455-7ebc-88f7-c6b4515b386c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="4bb0d91c-b2b4-4b55-a086-59d71d119701" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Select25ItemsPerPageTest" />
+    </UnitTest>
+    <UnitTest name="PrinciplesTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="518142b8-5475-61e4-c015-d8da574f8900">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="6a6e314d-d93d-4ea2-ab99-bc590267850e" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PrinciplesTabTest" />
+    </UnitTest>
+    <UnitTest name="ToggleFiltersTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="3c6ff170-1ac3-cc40-63f9-582feca8c919">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="e047d884-cf52-404e-8059-2a9640d66396" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToggleFiltersTest" />
+    </UnitTest>
+    <UnitTest name="TablesTabTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="07ee0982-429d-29fb-b695-ca4c1862e98d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="TopTabs" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="53ea6ac3-c4cb-4883-8bcc-6f7717997360" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.MasterPageTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TablesTabTest" />
+    </UnitTest>
+    <UnitTest name="SortByBirthdateTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="df184c67-4d34-f907-4afd-44b9429155b4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="e817ff5a-37a0-45d4-8f07-59bcc466d459" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortByBirthdateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8c45ffc0-b1f8-bce5-ce61-81320afdb47a" executionId="c2a06852-6fc9-4f8a-89ca-9e6b3ed9159f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="518142b8-5475-61e4-c015-d8da574f8900" executionId="6a6e314d-d93d-4ea2-ab99-bc590267850e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1afc6924-140a-6380-4ecb-cda57c269422" executionId="681fdfe7-5278-4f44-a6cb-1e78f661aa8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0aabe81-0077-83cb-4384-c630db1f1cfe" executionId="53c5db6e-a278-494e-86ba-16929230b4f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8a07304-cb52-9914-38cf-89c505784d6d" executionId="eeeacafb-6b0d-4dfe-bacd-709af804a9aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b82b83a5-bad4-2a1a-676d-ef684fda801e" executionId="2662014e-fff7-4f0c-84f5-6109411a0792" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f285a397-d8c6-4799-ca51-44b2bdbca964" executionId="eed64df5-0205-4381-aa26-69088a510838" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b924273c-6f6c-df09-074b-355ccc154565" executionId="1c719cbf-5f43-4373-b46e-2f72629df1f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88b40dd8-5c22-7a43-51a2-747b9ca3a6b4" executionId="cbb46eaa-aea5-490e-be48-269e44655c01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07ee0982-429d-29fb-b695-ca4c1862e98d" executionId="53ea6ac3-c4cb-4883-8bcc-6f7717997360" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb3757b2-9dce-f723-f03a-37b266fe9086" executionId="354d3f9b-d34f-4344-aa92-571ff5a0e29f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c6ff170-1ac3-cc40-63f9-582feca8c919" executionId="e047d884-cf52-404e-8059-2a9640d66396" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6ba8621-706b-d115-c38f-fe841344e4cc" executionId="c7678381-41e3-4c39-b97a-1a245d966c26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4099c06d-28d6-f6a9-a34c-0c8ce48f8dca" executionId="a0404f49-c21e-44ab-a107-2a123a039c22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df184c67-4d34-f907-4afd-44b9429155b4" executionId="e817ff5a-37a0-45d4-8f07-59bcc466d459" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7102611a-e8c3-3bec-c71e-6073aa8a29f2" executionId="9a2a75a3-8a4d-4856-b228-e54a85ff84f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3870922-9857-e0ed-2c2c-6e371b1c96f0" executionId="9481186d-b294-421d-82aa-110deb38b84f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99998761-5df9-8d5b-7345-4e3e96a78ce9" executionId="e19d486c-a31e-4b93-ad5b-d66b10c27210" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64842e05-d455-7ebc-88f7-c6b4515b386c" executionId="4bb0d91c-b2b4-4b55-a086-59d71d119701" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c2a06852-6fc9-4f8a-89ca-9e6b3ed9159f" testId="8c45ffc0-b1f8-bce5-ce61-81320afdb47a" testName="PageLdTest" computerName="MAIN" duration="00:00:00.6934696" startTime="2017-01-03T08:47:38.5403809-07:00" endTime="2017-01-03T08:47:47.5123809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2a06852-6fc9-4f8a-89ca-9e6b3ed9159f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a6e314d-d93d-4ea2-ab99-bc590267850e" testId="518142b8-5475-61e4-c015-d8da574f8900" testName="PrinciplesTabTest" computerName="MAIN" duration="00:00:00.0488434" startTime="2017-01-03T08:47:47.5143809-07:00" endTime="2017-01-03T08:47:47.5653809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a6e314d-d93d-4ea2-ab99-bc590267850e">
+    </UnitTestResult>
+    <UnitTestResult executionId="681fdfe7-5278-4f44-a6cb-1e78f661aa8d" testId="1afc6924-140a-6380-4ecb-cda57c269422" testName="ButtonsTabTest" computerName="MAIN" duration="00:00:00.0387202" startTime="2017-01-03T08:47:47.5663809-07:00" endTime="2017-01-03T08:47:47.6073809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="681fdfe7-5278-4f44-a6cb-1e78f661aa8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="53c5db6e-a278-494e-86ba-16929230b4f9" testId="f0aabe81-0077-83cb-4384-c630db1f1cfe" testName="ColorsTabTest" computerName="MAIN" duration="00:00:00.5312624" startTime="2017-01-03T08:47:47.6083809-07:00" endTime="2017-01-03T08:47:48.1423809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53c5db6e-a278-494e-86ba-16929230b4f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="eeeacafb-6b0d-4dfe-bacd-709af804a9aa" testId="e8a07304-cb52-9914-38cf-89c505784d6d" testName="GridTabTest" computerName="MAIN" duration="00:00:00.4779933" startTime="2017-01-03T08:47:48.1423809-07:00" endTime="2017-01-03T08:47:48.6233809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeeacafb-6b0d-4dfe-bacd-709af804a9aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="2662014e-fff7-4f0c-84f5-6109411a0792" testId="b82b83a5-bad4-2a1a-676d-ef684fda801e" testName="InputsTabTest" computerName="MAIN" duration="00:00:00.3878505" startTime="2017-01-03T08:47:48.6233809-07:00" endTime="2017-01-03T08:47:49.0143809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2662014e-fff7-4f0c-84f5-6109411a0792">
+    </UnitTestResult>
+    <UnitTestResult executionId="eed64df5-0205-4381-aa26-69088a510838" testId="f285a397-d8c6-4799-ca51-44b2bdbca964" testName="MiscTabTest" computerName="MAIN" duration="00:00:01.3860077" startTime="2017-01-03T08:47:49.0143809-07:00" endTime="2017-01-03T08:47:50.4033809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eed64df5-0205-4381-aa26-69088a510838">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c719cbf-5f43-4373-b46e-2f72629df1f0" testId="b924273c-6f6c-df09-074b-355ccc154565" testName="NavsTabTest" computerName="MAIN" duration="00:00:05.1005365" startTime="2017-01-03T08:47:50.4033809-07:00" endTime="2017-01-03T08:47:55.5063809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c719cbf-5f43-4373-b46e-2f72629df1f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbb46eaa-aea5-490e-be48-269e44655c01" testId="88b40dd8-5c22-7a43-51a2-747b9ca3a6b4" testName="OverlaysTabTest" computerName="MAIN" duration="00:00:00.4341104" startTime="2017-01-03T08:47:55.5073809-07:00" endTime="2017-01-03T08:47:55.9433809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbb46eaa-aea5-490e-be48-269e44655c01">
+    </UnitTestResult>
+    <UnitTestResult executionId="53ea6ac3-c4cb-4883-8bcc-6f7717997360" testId="07ee0982-429d-29fb-b695-ca4c1862e98d" testName="TablesTabTest" computerName="MAIN" duration="00:00:00.4344690" startTime="2017-01-03T08:47:55.9443809-07:00" endTime="2017-01-03T08:47:56.3813809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53ea6ac3-c4cb-4883-8bcc-6f7717997360">
+    </UnitTestResult>
+    <UnitTestResult executionId="354d3f9b-d34f-4344-aa92-571ff5a0e29f" testId="bb3757b2-9dce-f723-f03a-37b266fe9086" testName="TypographyTabTest" computerName="MAIN" duration="00:00:01.4242408" startTime="2017-01-03T08:47:56.3823809-07:00" endTime="2017-01-03T08:47:57.8083809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="354d3f9b-d34f-4344-aa92-571ff5a0e29f">
+    </UnitTestResult>
+    <UnitTestResult executionId="e047d884-cf52-404e-8059-2a9640d66396" testId="3c6ff170-1ac3-cc40-63f9-582feca8c919" testName="ToggleFiltersTest" computerName="MAIN" duration="00:00:00.8450170" startTime="2017-01-03T08:47:57.8093809-07:00" endTime="2017-01-03T08:47:59.9603809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e047d884-cf52-404e-8059-2a9640d66396">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ ToggleFiltersTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7678381-41e3-4c39-b97a-1a245d966c26" testId="a6ba8621-706b-d115-c38f-fe841344e4cc" testName="SortByFistNameTest" computerName="MAIN" duration="00:00:06.4831669" startTime="2017-01-03T08:47:59.9603809-07:00" endTime="2017-01-03T08:48:06.4463809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7678381-41e3-4c39-b97a-1a245d966c26">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. First Names were not sorted as expected. </Message>
+          <StackTrace>   at TableSiteTests.TableTests.SortByFistNameTest() in D:\Src\PresenceLearning\PlTableTests\TableSiteTests\TableTests.cs:line 107
+</StackTrace>
+        </ErrorInfo>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ SortByFistNameTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+          <Message> ∘ Clicking First Name table column header. </Message>
+          <Message> ∘ Clicking First Name table column header again to set as descending. </Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0404f49-c21e-44ab-a107-2a123a039c22" testId="4099c06d-28d6-f6a9-a34c-0c8ce48f8dca" testName="SortByLastNameTest" computerName="MAIN" duration="00:00:00.1022146" startTime="2017-01-03T08:48:06.4463809-07:00" endTime="2017-01-03T08:48:06.5513809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0404f49-c21e-44ab-a107-2a123a039c22">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ SortByLastNameTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+          <Message> ∘ Clicking Last Name Column Header</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e817ff5a-37a0-45d4-8f07-59bcc466d459" testId="df184c67-4d34-f907-4afd-44b9429155b4" testName="SortByBirthdateTest" computerName="MAIN" duration="00:00:00.1411790" startTime="2017-01-03T08:48:06.5523809-07:00" endTime="2017-01-03T08:48:06.6963809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e817ff5a-37a0-45d4-8f07-59bcc466d459">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ SortByBirthdateTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a2a75a3-8a4d-4856-b228-e54a85ff84f3" testId="7102611a-e8c3-3bec-c71e-6073aa8a29f2" testName="SortByStatusTest" computerName="MAIN" duration="00:00:00.1009490" startTime="2017-01-03T08:48:06.6973809-07:00" endTime="2017-01-03T08:48:06.8033809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a2a75a3-8a4d-4856-b228-e54a85ff84f3">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ SortByStatusTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9481186d-b294-421d-82aa-110deb38b84f" testId="f3870922-9857-e0ed-2c2c-6e371b1c96f0" testName="FilterByFirstNameTest" computerName="MAIN" duration="00:00:02.0684190" startTime="2017-01-03T08:48:06.8043809-07:00" endTime="2017-01-03T08:48:08.8763809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9481186d-b294-421d-82aa-110deb38b84f">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ FilterByFirstNameTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+          <Message> ∘ Selecting “First Name” </Message>
+          <Message> ∘ Typing Filter: “ar” </Message>
+          <Message> ∘ Row 1 First Name “Karen” contains “ar” = True</Message>
+          <Message> ∘ Row 2 First Name “Aaron” contains “ar” = True</Message>
+          <Message> ∘ Row 3 First Name “Aaron” contains “ar” = True</Message>
+          <Message> ∘ Row 4 First Name “Aaron” contains “ar” = True</Message>
+          <Message> ∘ Row 5 First Name “Aaron” contains “ar” = True</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e19d486c-a31e-4b93-ad5b-d66b10c27210" testId="99998761-5df9-8d5b-7345-4e3e96a78ce9" testName="FilterByLastNameTest" computerName="MAIN" duration="00:00:02.6180416" startTime="2017-01-03T08:48:08.8763809-07:00" endTime="2017-01-03T08:48:11.4963809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e19d486c-a31e-4b93-ad5b-d66b10c27210">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ FilterByLastNameTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+          <Message> ∘ Selecting “Last Name”</Message>
+          <Message> ∘ Typing Filter: “ee” </Message>
+          <Message> ∘ Row 1 Last Name “Wheeler” contains “ee” = True</Message>
+          <Message> ∘ Row 2 Last Name “Fleenor” contains “ee” = True</Message>
+          <Message> ∘ Row 3 Last Name “Reetz” contains “ee” = True</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4bb0d91c-b2b4-4b55-a086-59d71d119701" testId="64842e05-d455-7ebc-88f7-c6b4515b386c" testName="Select25ItemsPerPageTest" computerName="MAIN" duration="00:00:03.3877584" startTime="2017-01-03T08:48:11.4973809-07:00" endTime="2017-01-03T08:48:14.8873809-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bb0d91c-b2b4-4b55-a086-59d71d119701">
+      <Output>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ Select25ItemsPerPageTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+          <Message> ∘ Verifying Expected Number of Rows: </Message>
+          <Message>┌──────────────────────────────────────────────────────────────────────────────────┐ </Message>
+          <Message>│  FirstName    LastName                Birthdate    Status                                     │ </Message>
+          <Message>│  Arely        Jimenez                 08/05/1998   Onboarding                                 │ </Message>
+          <Message>│  Brayden      Bone                    03/08/2006   Summer Vacation                            │ </Message>
+          <Message>│  Brayden      Lewis                   07/13/2005   Onboarding                                 │ </Message>
+          <Message>│  Cameron      Leonard                 05/12/2006   Onboarding                                 │ </Message>
+          <Message>│  David        Reetz                   11/22/2003   Onboarding                                 │ </Message>
+          <Message>│  ian          Leflore                 01/01/1901   Onboarding                                 │ </Message>
+          <Message>│  Jonah        Robertson               10/21/1977   Onboarding                                 │ </Message>
+          <Message>│  Karen        Quinones Granullo       05/14/2008   Achieved Goals: Exited, No Longer Eligible │ </Message>
+          <Message>│  Keenan       Barnett                 05/21/2004   Onboarding                                 │ </Message>
+          <Message>│  Paige        Sluder                  10/21/1977   Onboarding                                 │ </Message>
+          <Message>│  Yazairad     Renteria-Ruiz           09/19/2007   Summer Vacation                            │ </Message>
+          <Message>│  A            Nolen                   08/13/2015   Onboarding                                 │ </Message>
+          <Message>│  A            Peacock                 01/07/2016   Onboarding                                 │ </Message>
+          <Message>│  A            Pointer                 01/07/2016   Onboarding                                 │ </Message>
+          <Message>│  A            Velasco                 01/01/1901   Onboarding                                 │ </Message>
+          <Message>│  A and        duplicate               06/19/2004   Onboarding                                 │ </Message>
+          <Message>│  A'Kira       Holmes                  07/01/2002   Onboarding                                 │ </Message>
+          <Message>│  A'mari       Weathers                06/19/2015   Onboarding                                 │ </Message>
+          <Message>│  A'niyah      Bradley                 11/07/2006   Onboarding                                 │ </Message>
+          <Message>│  A'Shante     Doucet                  10/21/1977   Onboarding                                 │ </Message>
+          <Message>│  Aa'nden      Moore-Ewart             09/13/2004   Unknown                                    │ </Message>
+          <Message>│  Aadene       Casares                 02/01/2016   In Assessment                              │ </Message>
+          <Message>│  Aaiden       Medrano                 12/01/2009   Summer Vacation                            │ </Message>
+          <Message>│  Aakilah      Allen                   04/03/2000   Onboarding                                 │ </Message>
+          <Message>│  Aaliyah      Allen                   03/01/2008   End of Year                                │ </Message>
+          <Message>└──────────────────────────────────────────────────────────────────────────────────┘ </Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0c8d3755-febd-40c9-ac46-fe9ffa44e6db" name="UserOmega@MAIN 2016-12-31 13:41:30" runUser="Main\UserOmega" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="678602f8-413f-411e-9403-ca8081061929">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\Src\PresenceLearning\PlTableTests\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="UserOmega_MAIN 2016-12-31 13_41_30">
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\packages\Protractor.0.9.1\lib\net40\Protractor.dll" />
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\TablePages\bin\Debug\TablePages.dll" />
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\packages\Selenium.WebDriver.3.0.1\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="D:\Src\PresenceLearning\PlTableTests\packages\Selenium.Support.3.0.1\lib\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <Hosts skipUnhostableTests="false" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-12-31T13:41:30.7650000-07:00" queuing="2016-12-31T13:41:30.7870000-07:00" start="2016-12-31T13:41:30.7920000-07:00" finish="2016-12-31T13:41:52.5560000-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SortByFistNameTest" storage="d:\src\presencelearning\pltabletests\tablesitetests\bin\debug\tablesitetests.dll" id="a6ba8621-706b-d115-c38f-fe841344e4cc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Regression" />
+        <TestCategoryItem TestCategory="DataTable" />
+        <TestCategoryItem TestCategory="Selenium" />
+        <TestCategoryItem TestCategory="PlPatternLibrary" />
+        <TestCategoryItem TestCategory="Protractor" />
+      </TestCategory>
+      <Execution id="a23a592e-d2f7-476a-acdb-b72851fa214b" />
+      <TestMethod codeBase="D:/Src/PresenceLearning/PlTableTests/TableSiteTests/bin/Debug/TableSiteTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TableSiteTests.TableTests, TableSiteTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortByFistNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a6ba8621-706b-d115-c38f-fe841344e4cc" executionId="a23a592e-d2f7-476a-acdb-b72851fa214b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a23a592e-d2f7-476a-acdb-b72851fa214b" testId="a6ba8621-706b-d115-c38f-fe841344e4cc" testName="SortByFistNameTest" computerName="MAIN" duration="00:00:06.9395965" startTime="2016-12-31T13:41:30.7930000-07:00" endTime="2016-12-31T13:41:48.0730000-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a23a592e-d2f7-476a-acdb-b72851fa214b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. First Names were not sorted as expected. </Message>
+          <StackTrace>   at TableSiteTests.TableTests.SortByFistNameTest() in D:\Src\PresenceLearning\PlTableTests\TableSiteTests\TableTests.cs:line 107
+</StackTrace>
+        </ErrorInfo>
+        <TextMessages>
+          <Message>
+↘ ☑ ⏩ SortByFistNameTest() ⏪ ☒ ↙
+</Message>
+          <Message>📄 Table Page</Message>
+          <Message> ∘ Clicking First Name table column header. </Message>
+          <Message> ∘ Clicking First Name table column header again to set as descending. </Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
